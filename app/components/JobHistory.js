@@ -6,7 +6,7 @@ import Image from "next/image";
 import Laptop from '/public/computer-703.svg'
 import Link from "next/link";
 import {motion} from "framer-motion";
-import {projects} from "@/app/constants";
+import {projects} from "../constants";
 import {fadeIn} from "../motion/motion";
 const JobHistory = () => {
   return (
