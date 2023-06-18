@@ -15,7 +15,7 @@ const About = () => {
       whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
     >
-      <div className="flex items-center justify-center bg-transparent md:mt-[150px] ">
+      <div className="flex items-center justify-center  bg-transparent md:mt-[150px] ">
 
         <div className='flex flex-col p-6 m-3
     space-y-10 bg-white rounded-2xl
@@ -28,7 +28,7 @@ const About = () => {
           variants={planetVariants('right')}
           >
             <Image src={Main} alt="siavash maghsoudi"
-                   className=" relative mx-10 ml-14 md:-mr-8 rounded-full hover:scale-[102%] hover:shadow-amber-900 hover:shadow-2xl shadow-[#251920] duration-300 w-60"/>
+                   className=" relative mx-10 ml-[300px] sm:ml-14 md:-mr-8 rounded-full hover:scale-[102%] hover:shadow-amber-900 hover:shadow-2xl shadow-[#251920] duration-300 w-60"/>
           </motion.div>
           <div className="flex flex-col space-y-6">
 
@@ -39,7 +39,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="max-w-small text-3xl font-medium tracking-wider">
+              <div className="max-w-small text-2xl sm:text-3xl font-medium tracking-wider">
                 <h1>
                   سلام سیاوش مقصودی هستم
                 </h1>
