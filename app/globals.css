@@ -9,6 +9,8 @@ body{
   height: 100%;
 
 
+
+
 }
 .bg-grade-1{
   @apply bg-gradient-to-r from-[#FE9800] via-[#E73604] to-[#811C18]

@@ -22,9 +22,9 @@ export default function Home() {
                 duration:1,
 
             }}
-        className='snap-y  snap-mandatory scrollbar '>
+        className='snap-y   snap-mandatory scrollbar '>
           <Header/>
-        <section id='about' className='snap-start'>
+        <section id='about' className='snap-start flex justify-center'>
           <About/>
         </section>
         <section id='JobHistory' className='snap-center  '>

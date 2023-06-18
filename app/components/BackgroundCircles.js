@@ -19,7 +19,7 @@ const BackgroundCircles = () => {
               delay:1,
             }}
             className='relative flex justify-center items-center'>
-            <div className='absolute border border-[#F7AB0A] rounded-full h-[150px] w-[150px] mr-[178px] mb-[10px]
+            <div className='absolute border border-[#F7AB0A] rounded-full h-[150px] w-[150px] mt-[317px] ml-[15px] md:ml-0 md:mt-0  md:mr-[178px] md:mb-[10px]
             animate-ping
             '/>
             {/*<div className='rounded-full border border-[#333333] h-[300px] w-[300px] absolute mt-52'/>*/}

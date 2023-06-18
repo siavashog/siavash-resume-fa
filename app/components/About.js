@@ -15,7 +15,7 @@ const About = () => {
       whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
     >
-      <div className="flex items-center justify-center bg-transparent mt-[150px] ">
+      <div className="flex items-center justify-center bg-transparent md:mt-[150px] ">
 
         <div className='flex flex-col p-6 m-3
     space-y-10 bg-white rounded-2xl

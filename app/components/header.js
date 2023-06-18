@@ -10,7 +10,7 @@ const Header = () => {
       variants={navVariants}
     initial="hidden"
     whileInView="show"
-      className='hidden md:flex md:flex-row justify-start px-3 duration-300 hover:scale-[102%]'>
+      className=' flex flex-row justify-start px-3 duration-300 hover:scale-[102%]'>
       <div className=' duration-300 flex hover:tracking-wider items-center justify-center text-center p-4 cursor-pointer hover:drop-shadow-lg	  rounded-2xl'>
         <a className='text-white text-xl ' href="/#about">
           مشخصات

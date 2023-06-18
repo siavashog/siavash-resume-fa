@@ -13,110 +13,110 @@ const Skills = () => {
       initial="hidden"
       whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-      className="flex items-center justify-center mb-[10px]  bg-transparent">
-      <div className="bg-white flex flex-col text-center justify-center shadow-2xl p-2  md:w-[700px] rounded-2xl">
-      <div className='text-6xl border-b pb-12 p-6  ' >
+      className="flex items-center justify-center md:mb-[10px]  bg-transparent">
+      <div className="bg-white flex flex-col text-center justify-center shadow-2xl p-2 w-[376px]  md:w-[700px] rounded-2xl">
+      <div className='text-5xl md:text-6xl border-b pb-12 p-6  ' >
         <h1 className='tracking-wider font-bold'>درباره من !</h1>
       </div>
         <div className='flex flex-col justify-center items-center '>
           <div className='px-6 pt-5 pb-7'>
 
-            <h4 className='text-4xl tracking-wide font-semibold text-center'>
+            <h4 className='text-3xl md:text-4xl tracking-wide font-semibold text-center'>
               مهارت ها
             </h4>
           </div>
           <div className='flex mb-3 flex-col border-t-2 items-center justify-center'>
 
-            <div className='text-xl mt-2 tracking-widest uppercase'>
+            <div className='text-lg md:text-xl mt-2 tracking-widest uppercase'>
               next js
 
             </div>
-            <div className='flex flex-col  justify-center  items-center  w-[400px]'>
+            <div className='flex flex-col  justify-center  items-center w-[300px] md:w-[400px]'>
 
               <div className="flex justify-between">
-                <span className="text-lg font-medium text-black">90%</span>
+                <span className="animate-pulse text-sm md:text-lg font-medium text-black">90%</span>
               </div>
-              <div className="w-full bg-grade-2 rounded-2xl  h-2.5 ">
+              <div className="w-[230px] md:w-full bg-grade-2 rounded-2xl  h-2.5 ">
                 <div className="bg-black h-2.5 rounded-r-2xl  w-[10%]"></div>
               </div>
             </div>
           </div>
           <div className='flex mb-3 flex-col border-t-2 items-center justify-center'>
 
-            <div className='text-xl mt-2 tracking-widest uppercase'>
+            <div className='text-lg md:text-xl mt-2 tracking-widest uppercase'>
               react js
 
             </div>
-            <div className='flex flex-col  justify-center  items-center  w-[400px]'>
+            <div className='flex flex-col  justify-center  items-center w-[300px] md:w-[400px]'>
 
               <div className="flex justify-between">
-                <span className="text-lg font-medium text-black">90%</span>
+                <span className="animate-pulse text-sm md:text-lg font-medium text-black">90%</span>
               </div>
-              <div className="w-full bg-grade-2 rounded-2xl  h-2.5 ">
+              <div className="w-[230px] md:w-full bg-grade-2 rounded-2xl  h-2.5 ">
                 <div className="bg-black h-2.5 rounded-r-2xl  w-[10%]"></div>
               </div>
             </div>
           </div>
           <div className='flex mb-3 flex-col border-t-2 items-center justify-center'>
 
-            <div className='text-xl mt-2 tracking-widest uppercase'>
+            <div className='text-lg md:text-xl mt-2 tracking-widest uppercase'>
               tailwind css
 
             </div>
-            <div className='flex flex-col  justify-center  items-center  w-[400px]'>
+            <div className='flex flex-col  justify-center  items-center w-[300px] md:w-[400px]'>
 
               <div className="flex justify-between">
-                <span className="text-lg font-medium text-black">90%</span>
+                <span className="animate-pulse text-sm md:text-lg font-medium text-black">90%</span>
               </div>
-              <div className="w-full bg-grade-2 rounded-2xl  h-2.5 ">
+              <div className="w-[230px] md:w-full bg-grade-2 rounded-2xl  h-2.5 ">
                 <div className="bg-black h-2.5 rounded-r-2xl  w-[10%]"></div>
               </div>
             </div>
           </div>
           <div className='flex mb-3 flex-col border-t-2 items-center justify-center'>
 
-            <div className='text-xl mt-2 tracking-widest uppercase'>
+            <div className='text-lg md:text-xl mt-2 tracking-widest uppercase'>
               type script
 
             </div>
-            <div className='flex flex-col  justify-center  items-center  w-[400px]'>
+            <div className='flex flex-col  justify-center  items-center w-[300px] md:w-[400px]'>
 
               <div className="flex justify-between">
-                <span className="text-lg font-medium text-black">50%</span>
+                <span className="animate-pulse text-sm md:text-lg font-medium text-black">50%</span>
               </div>
-              <div className="w-full bg-grade-2 rounded-2xl  h-2.5 ">
+              <div className="w-[230px] md:w-full bg-grade-2 rounded-2xl  h-2.5 ">
                 <div className="bg-black h-2.5 rounded-r-2xl  w-[50%]"></div>
               </div>
             </div>
           </div>
           <div className='flex mb-3 flex-col border-t-2 items-center justify-center'>
 
-            <div className='text-xl mt-2 tracking-widest uppercase'>
+            <div className='text-lg md:text-xl mt-2 tracking-widest uppercase'>
               html & css
 
             </div>
-            <div className='flex flex-col  justify-center  items-center  w-[400px]'>
+            <div className='flex flex-col  justify-center  items-center w-[300px] md:w-[400px]'>
 
               <div className="flex justify-between">
-                <span className="text-lg font-medium text-black">90%</span>
+                <span className="animate-pulse text-sm md:text-lg font-medium text-black">90%</span>
               </div>
-              <div className="w-full bg-grade-2 rounded-2xl  h-2.5 ">
+              <div className="w-[230px] md:w-full bg-grade-2 rounded-2xl  h-2.5 ">
                 <div className="bg-black h-2.5 rounded-r-2xl  w-[10%]"></div>
               </div>
             </div>
           </div>
           <div className='flex mb-3 flex-col border-t-2 items-center justify-center'>
 
-            <div className='text-xl mt-2 tracking-widest uppercase'>
+            <div className='text-lg md:text-xl mt-2 tracking-widest uppercase'>
               Express js
 
             </div>
-            <div className='flex flex-col  justify-center  items-center  w-[400px]'>
+            <div className='flex flex-col  justify-center  items-center w-[300px] md:w-[400px]'>
 
               <div className="flex justify-between">
-                <span className="text-lg font-medium text-black">40%</span>
+                <span className="animate-pulse text-sm md:text-lg font-medium text-black">40%</span>
               </div>
-              <div className="w-full bg-grade-2 rounded-2xl  h-2.5 ">
+              <div className="w-[230px] md:w-full bg-grade-2 rounded-2xl  h-2.5 ">
                 <div className="bg-black h-2.5 rounded-r-2xl  w-[60%]"></div>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">ادیت کردن فیلم و سریال ها</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">ادیت کردن فیلم و سریال ها</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -149,7 +149,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">بدنسازی</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">بدنسازی</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -165,7 +165,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">بوکس</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">بوکس</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -181,7 +181,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">فوتبال</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">فوتبال</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -197,7 +197,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">برنامه نویسی</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">برنامه نویسی</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -213,7 +213,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">شطرنج</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">شطرنج</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -229,7 +229,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">عکاسی</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">عکاسی</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -245,7 +245,7 @@ const Skills = () => {
 
               <div className='flex justify-center items-center px-2 '>
 
-                <p className="text-sm font-light text-gray-600 ">دیزاین لوگو</p>
+                <p className="text-xs md:text-sm font-light text-gray-600 ">دیزاین لوگو</p>
               </div>
               <div className='flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -266,7 +266,7 @@ const Skills = () => {
             </h4>
           </div>
           <div className="mt-32 mx-auto md:px-6">
-            <section className="mb-32">
+            <section className="md:mb-32">
               {/*<div*/}
               {/*  className="relative h-[100px] overflow-hidden bg-transparent bg-[50%] bg-no-repeat bg-[url('https://mdbcdn.b-cdn.net/img/new/textures/full/171.jpg')]">*/}
               {/*</div>*/}
@@ -310,19 +310,7 @@ const Skills = () => {
             </section>
           </div>
         </div>
-        {/*<div className="flex flex-col  rounded-l-xl">*/}
 
-
-        {/*  <div className=' w-[300px] space-y-6 md:space-y-0 md:w-[500px] flex overflow-x-scroll*/}
-        {/*    overflow-y-hidden snap-x snap-mandatory z-20*/}
-        {/*    scrollbar scrollbar-track-gray-400/20  scrollbar-thin*/}
-        {/*    '>*/}
-
-
-        {/*    </div>*/}
-
-
-        {/*</div>*/}
 
       </div>
     </motion.div>
